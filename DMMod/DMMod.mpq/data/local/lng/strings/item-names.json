@@ -26127,5 +26127,22 @@
     "ptBR": "Medalhão de Arpaska",
     "ruRU": "Медальон Арпаски",
     "zhCN": "阿帕斯卡的奖章"
+  },
+  {
+    "id": 51500,
+    "Key": "Dark Master",
+    "enUS": "Dark Master",
+    "zhTW": "黑暗大師",
+    "deDE": "Dunkler Meister",
+    "esES": "Maestro Oscuro",
+    "frFR": "Maître des Ténèbres",
+    "itIT": "Maestro Oscuro",
+    "koKR": "다크마스터",
+    "plPL": "Mroczny Mistrz",
+    "esMX": "Maestro Oscuro",
+    "jaJP": "ダークマスター",
+    "ptBR": "Mestre das Trevas",
+    "ruRU": "Темный Властелин",
+    "zhCN": "黑暗大師"
   }
 ]
