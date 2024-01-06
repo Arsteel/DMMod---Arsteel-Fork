@@ -40,7 +40,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 **Arsteel Patch 0.00 Changelog**
 
-##### uniqueitems.txt
+##### data\global\excel\uniqueitems.txt
 
 * The Gnasher
  * Decreased lvl from 7 to 3 (Reduced the required monster level for this item to drop from from 7 to 3)
@@ -507,6 +507,13 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
  * Increased min6 and max6 from 3/3 to 5/5 (Necromancer skills bonus increased from 3 to 5)
  * Deleted all data from prop10 to max10 and moved all other stats over (Removed +1 Fire Skills, from the base DMMod)
 
+#### data\local\lng\item-names.json
+
+* Appended "Dark Master" to the end of the file with id 51500, for the unique Crystal Sword.
+
+
+
+###### Regular DMMod patch notes
 
 **Patch 1.03b Changelog** (12-31-23)
   * quick patch mostly to properly fix a critical bug that I attempted to hotfix earlier this morning but failed (all runewords were poofing due to the new Akara Potion Upgrade not having anything in the "code" column)
