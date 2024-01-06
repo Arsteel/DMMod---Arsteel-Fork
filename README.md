@@ -45,6 +45,20 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 * Increased the unique/champion mob density in most areas in Normal difficulty, to match the density in Nightmare difficulty. Exclusions include The Blood Moor, The Den of Evil, and the Forgotten Tower which maintain their original values. The Cold Plains has an increased elite density of 2-3 instead of 4-5 like in Nightmare.
 
 
+##### data\global\excel\gems.txt
+
+* Chipped Diamond
+ * Reduced shieldMod1Min and shieldMod1Max from 6/6 to 4/4 (Reduced All Res in shields from 6 to 4)
+* Flawed Diamond
+ * Reduced shieldMod1Min and shieldMod1Max from 8/8 to 6/6 (Reduced All Res in shields from 8 to 6)
+* Diamond
+ * Reduced shieldMod1Min and shieldMod1Max from 11/11 to 8/8 (Reduced All Res in shields from 11 to 8)
+* Flawless Diamond
+ * Reduced shieldMod1Min and shieldMod1Max from 14/14 to 10/10 (Reduced All Res in shields from 14 to 10)
+* Perfect Diamond
+ * Reduced shieldMod1Min and shieldMod1Max from 19/19 to 13/13 (Reduced All Res in shields from 19 to 13)
+
+
 ##### data\global\excel\weapons.txt
 
 * Military Pick
