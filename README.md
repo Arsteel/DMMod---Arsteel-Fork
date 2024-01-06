@@ -40,6 +40,10 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 **Arsteel Patch 0.00 Changelog**
 
+##### data\global\excel\levels.txt
+
+* Increased the unique/champion mob density in most areas in Normal difficulty, to match the density in Nightmare difficulty. Exclusions include The Blood Moor, The Den of Evil, and the Forgotten Tower which maintain their original values. The Cold Plains has an increased elite density of 2-3 instead of 4-5 like in Nightmare.
+
 ##### data\global\excel\uniqueitems.txt
 
 * The Gnasher
