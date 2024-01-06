@@ -45,6 +45,31 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 * Increased the unique/champion mob density in most areas in Normal difficulty, to match the density in Nightmare difficulty. Exclusions include The Blood Moor, The Den of Evil, and the Forgotten Tower which maintain their original values. The Cold Plains has an increased elite density of 2-3 instead of 4-5 like in Nightmare.
 
 
+##### data\global\excel\runes.txt
+
+* Ancient’s Pledge
+ * Changed itype1 from shld to weap (Runeword is now made in all weapons instead of shields)
+ * Deleted all stats from T1Code1 to T1Max4 (Cleared all stats from the runeword)
+ * Added dmg% to T1Code1, and 50/50 to T1Min1 and T1Max1 (Added 50% Enhanced Damage)
+ * Added dmg-cold to T1Code2, 75 to T1Param2, and 3/14 to T1Min2 and T1Max2 (Added 14-22 Cold Damage with 3 second duration)
+ * Added dmg-mag to T1Code3, and 13/19 to T1Min3 and T1Max3 (Added 13-19 Magic Damage)
+ * Added swing2 to T1Code4, and 20/20 to T1Min4 and T1Max4 (Added 20% Increased Attack Speed)
+ * Full stats as follows:
+  * 50% Enhanced Damage
+  * 20% Increased Attack Speed
+  * 5-30 Fire Damage
+  * 1-50 Lightning Damage
+  * 3-14 Cold Damage with 3 second chill
+  * 75 Poison Damage over 5 seconds
+  * 13-19 Magic Damage
+ * Holy Thunder
+  * Deleted all stats from complete (Runeword can no longer be made)
+ * White
+  * Changed T1Code1 from skilltab to nec, removed 7 from T1Param1, and reduced T1Min1 and T1Max1 from 3/3 to 1/1 (Changed +3 Poison & Bone Skill to +1 Necromancer skills)
+  * Reduced T1Min6 and T1Max6 from 2/2 to 1/1 (Reduced Bone Spear skills bonus from 2 to 1)
+  * Reduced T1Min7 and T1Max7 from 4/4 to 3/3 (Reduced Skeleton Mastery bonus from 4 to 3)
+
+
 ##### data\global\excel\gems.txt
 
 * Chipped Diamond
