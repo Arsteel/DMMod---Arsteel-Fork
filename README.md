@@ -36,7 +36,477 @@ Thanks to:
 * id Software for creating the awesome Doom games and the badass logo that I re-used for DMMod.
 
 # Changelog
-Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
+Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis. The original DMMod changes will be listed below the Arsteel Patch notes.
+
+**Arsteel Patch 0.00 Changelog**
+
+##### uniqueitems.txt
+
+* The Gnasher
+ * Decreased lvl from 7 to 3 (Reduced the required monster level for this item to drop from from 7 to 3)
+ * Increased min1 and max1 from 8/8 to 12/12 (Strength bonus increased from 8 to 12)
+ * Increased min4 and max4 from 60/70 to 70/90 (Enhanced Damage range increased from 60-70 to 70-90)
+* Deathspade
+ * Decreased lvl from 12 to 8 (Reduced the required monster level for this item to drop from from 12 to 8)
+ * Increased min3 and max3 from 15/15 to 25/25 (Increased attack rating bonus from 15% to 25%)
+ * Increased min5 and max5 from 60/70 to 70/85 (Enhanced Damage range increased from 60-70 to 70-85)
+* Bladebone
+ * Decreased lvl from 20 to 15 (Reduced the required monster level for this item to drop from from 20 to 15)
+ * Increased min5 and max5 from 8/8 to 11/11 (Increased minimum fire damage from 8 to 11)
+ * Increased min6 and max6 from 12/12 to 14/14 (increased maximum fire damage from 12 to 14)
+ * Increased min7 and max7 from 30/50 to 111/111 (Enhanced damage range changed from 30-50 to 111)
+* Mindrend (Skull Splitter)
+ * Decreased lvl from 28 to 23 (Reduced the required monster level for this item to drop from from 28 to 23)
+ * Changed prop3 from ltng-min to dmg-ltng/lvl. Set par3 to 16. Removed all stats from prop4 to max4 and moved the other stats over. (Changed lightning damage from 1 to 12-15, to +2 maximum lightning damage per level)
+ * Increased min6 and max6 from 15/15 to 20/20 (Increased Open Wounds chance from 15 to 20)
+* Rakescar
+ * Reduced lvl from 36 to 27 (Reduced the required monster level for this item to drop from 36 to 27)
+ * Increased min1, max1 and min2, max2 to 384 (Increased poison damage from 38 over 3 sec to 113 over 3 sec)
+ * Increased min6 from 75 to 110 (Enhanced Damage range increased from 75-150 to 110-150
+* Fechmars Axe (Axe of Fechmar)
+ * Reduced lvl from 11 to 7 (Reduced the required monster level for this item to drop from from 11 to 7)
+ * Reduced lvl req from 8 to 5 (Reduced the required level to equip from 8 to 5)
+ * Added dmg-cold/lvl to prop5 and 16 to par5 (Added +2 maximum cold damage per character level)
+* Goreshovel
+ * Reduced lvl from 19 to 14 (Reduced the required monster level for this item to drop from 19 to 14)
+ * Increased min4 and max4 from 40/50 to 70/100 (Enhanced damage range increased from 40-50 to 70-100)
+* The Chieftan (The Chieftain)
+ * Reduced lvl from 26 to 17 (Reduced the required monster level for this item to drop from 26 to 17)
+ * Increased min1 and max1 from 100/100 to 115/115 (Enhanced damage increased from 100 to 115)
+ * Increased max5 to 130 (Increased lightning damage range from 1-40 to 1-130)
+* Brainhew
+ * Reduced lvl from 34 to 25 (Reduced the required monster level for this item to drop from 34 to 25)
+ * Reduced min4 and max 4 from 10/13 to 4/7 (Reduced mana steal range from 10-13 to 4-7)
+ * Increased min5 and max5 from 50/80 to 160/200 (Enhanced damage range increased from 50-80 to 160-200)
+* The Humongous (Humongous)
+ * Reduced lvl from 39 to 31 (Reduced the required monster level for this item to drop from 39 to 31)
+ * Increased min1 and max1 from 20/30 to 30/50 (Increased strength bonus from 20-30 to 30-50)
+ * Increased min5 and max5 from 20 to 40 (Increased added requirements from 20% to 40%)
+ * Increased min6 and max6 from 80/120 to 150/250 (Enhanced damage range increased from 80-120 to 150-250)
+* Iros Torch (Torch of Iro)
+ * Reduced lvl from 7 to 3 (Reduced the required monster level for this item to drop from 7 to 3)
+* Gravenspine
+ * Reduced lvl from 27 to 24 (Reduced the required monster level for this item to drop from 27 to 24)
+* Umes Lament (Ume’s Lament)
+ * Reduced lvl from 38 to 30 (Reduced the required monster level for this item to drop from 38 to 30)
+* Felloak
+ * Reduced lvl from 4 to 3 (Reduced the required monster level for this item to drop from 4 to 3)
+ * Added sock to prop7 and 2 to par7 (Now spawns with 2 open sockets)
+* Knell Striker
+ * Reduced lvl from 7 to 5 (Reduced the required monster level for this item to drop from 7 to 5)
+ * Increased min6 and max6 from 70/80 to 80/120 (Enhanced Damage range increased from 70-80 to 80-120)
+* Rusthandle
+ * Reduced lvl from 23 to 18 (Reduced the required monster level for this item to drop from 23 to 18)
+ * Increased min2 and max2 from 3/7 to 8/18 (Increased damage added from 3-7 to 8-18)
+ * Increased min7 from 1 to 3 (Now always gives +3 to Vengeance)
+* Stormeye
+ * Reduced lvl from 31 to 24 (Reduced the required monster level for this item to drop from 31 to 24)
+ * Increased max1 from 6 to 156 (Lightning damage range is now 1-156 instead of 1-6)
+ * Increased min2 and max2 from 3/5 to 44/57 (Cold damage range increased from 3-5 to 44-57)
+ * Increased min4 and max4 from 80/120 to 131/131 (Enhanced damage increased from 80-120 to 131)
+ * Increased min5 from 3 to 5 (Resist Lightning skill bonus increased from 3-5 to 5)
+* Stoutnail
+ * Reduced lvl from 7 to 4 (Reduced the required monster level for this item to drop from 7 to 4)
+ * Increased min1 and max1 from 3/10 to 6/15 (Increased Attacker Takes Damage from 3-10 to 6-15)
+ * Increased min3 and max3 from 7/7 to 11/13 (Increased Vitality bonus from 7 to 11-13)
+ * Increased min4 and max4 from 2/2 to 5/5 (Increased Magic Damage Reduced By from 2 to 5)
+* Crushflange
+ * Reduced lvl from 12 to 10 (Reduced the required monster level for this item to drop from 12 to 10)
+ * Increase min5 and max5 from 50/60 to 90/120 (Enhanced Damage range increased from 50-60 to 90-120)
+* Bloodrise
+ * Reduced lvl from 20 to 13 (Reduced the required monster level for this item to drop from 20 to 13)
+ * Changed prop 6 from skill to oskill and par6 from 96 to Sacrifice (Made Sacrifice bonus an oskill for all classes)
+* The Generals Tan Do Li Ga (The General’s Tan Do Li Ga)
+ * Reduced lvl from 28 to 23 (Reduced the required monster level for this item to drop from 28 to 23)
+ * Increased min2 and max2 from 20/20 to 24/24 (Flat damage bonus increased from 1-20 to 1-24)
+ * Increased min4 and max4 from 25/25 to 50/50 (Increased Defense bonus from 25 to 50)
+ * Increased min6 and max6 from 50/60 to 95/115 (Enhanced Damage bonus increased from 50-60 to 95-115)
+* Ironstone
+ * Reduced lvl from 36 to 29 (Reduced the required monster level for this item to drop from 36 to 29)
+ * Increased min2 and max2 from 100/150 to 130/180 (Enhanced Damage bonus increased from 100-150 to 130-180)
+ * Increased max5 from 10 to 20 (Increased Strength bonus from 10 to 10-20)
+* Bonesob (Bonesnap)
+ * Reduced lvl from 32 to 23 (Reduced the required monster level for this item to drop from 32 to 23)
+* Steeldriver
+ * Reduced lvl from 39 to 34 (Reduced the required monster level for this item to drop from 39 to 34)
+* Blood Crescent
+ * Reduced lvl from 10 to 9 (Reduced the required monster level for this item to drop from 10 to 9)
+ * Increased min2 and max2 from 60/80 to 80/150 (Enhanced Damage bonus increased from 60-80 to 80-150)
+* Krintizs Skewer (Skewer of Krintiz)
+ * Reduced lvl from 14 to 10 (Reduced the required monster level for this item to drop from 14 to 10)
+ * Increased min5 and max5 from 50/50 to 150/150 (Enhanced Damage bonus increased from 50 to 150)
+* Gleamscythe
+ * Reduced lvl from 18 to 15 (Reduced the required monster level for this item to drop from 18 to 15)
+ * Increased min4 and max4 from 20/20 to 60/60 (Increased Attack Speed bonus increased from 20 to 60)
+ * Added sock to prop7 and 1 to par7 (Now spawns with 1 open socket)
+* Azurewrath (Dark Master)
+ * Changed enabled from 0 to 1 (Enabled the “mini” Azurewrath from 1.09, now named Dark Master)
+ * Reduced lvl from 18 to 14 (Reduced the required monster level for this item to drop from 18 to 14)
+ * Changed prop1 from deadly to dmg-undead, and increased min1 and max1 from 50/50 to 200/200 (Replaced 50% Deadly Strike with 200% Damage vs Undead)
+ * Increased min2 and max2 from 10/10 to 20/20 (Magic Find bonus increased from 10/10 to 20/20
+ * Increased min4 and max4 from 100/100 to 100/150 (Enhanced Damage bonus increased from 100 to 100-150)
+ * Increased min3 and max3 from 3/6 to 6/14 (Increased Cold Damage from 3-6 to 6-14)
+ * Increased min6 and max6 from 5/10 to 15/25 (Increased Magic damage from 5-10 to 15-25)
+ * Added dmg-demon to prop7, and 200/200 to min7 and max7 (Added 200% Damage vs Demons)
+ * Full stats as follows:
+  * Crystal Sword
+  * 100-150% Enhanced Damage
+  * 200% Damage to Undead
+  * 200% Damage to Demons
+  * 20% Magic Find
+  * 6-14 Cold Damage (4 second duration)
+  * 15-25 Magic Damage
+  * +25 Durability (Hidden)
+* Griswolds Edge (Griswold’s Edge)
+ * Reduced lvl from 23 to 19 (Reduced the required monster level for this item to drop from 23 to 19)
+ * Increased min4 and max4 from 10/10 to 20/20 (Increased Attack Speed bonus increased from 10 to 20)
+ * Added deadly to prop8 and 50/50 to min8 and max8 (Added 50% Deadly Strike)
+* Hellplague
+ * Reduced lvl from 30 to 24 (Reduced the required monster level for this item to drop from 30 to 24)
+ * Increased min3 and max3 from 48/48 to 96/96, and min4 and max4 from 96/96 to 144/144 (increased poison damage from 28-56 to 56-84)
+ * Increased min8 and max8 from 2/2 to 3/3 (Fire Skills bonus increased from 2 to 3)
+* Culwen’s Point
+ * Reduced lvl from 39 to 31 (Reduced the required monster level for this item to drop from 39 to 31)
+ * Increased min6 and max6 from 70/80 to 108/108 (Enhanced Damage bonus increased from 70-80 to 108)
+ * Changed prop5 from att to att%, and reduced min5 and max5 from 60/60 to 20/20 (Attack Rating bonus changed from +60 to +20%)
+ * Added deadly to prop7, and 20/20 to min7 and max7 (Added 20% chance of Deadly Strike)
+* Shadowfang
+ * Reduced lvl from 16 to 12 (Reduced the required monster level for this item to drop from 16 to 12
+ * Changed prop2 from res-cold to res-all (Changed 20% Cold Resist to 20% Resist All)
+ * Increased min5 and max5 from 100/100 to 125/125 (Enhanced Damage bonus increased from 100 to 125)
+* Soulflay
+ * Reduced lvl from 26 to 17 (Reduced the required monster level for this item to drop from 26 to 17)
+ * Deleted all stats from prop1 to max2 (Removed mana and life steal)
+ * Added openwounds to prop1 and 23/23 to min1 and max1 (Added 23% chance of Open Wounds)
+ * Added dmg-pois to prop2, 75 to par2, and 307/307 to min2 and max2 (Added 90 poison damage over 3 seconds)
+ * Increased min3 and max3 from 70/100 to 120/145 (Enhanced Damage bonus increased from 70-100 to 120/145)
+* Kinemils Awl (Kinemil’s Awl)
+ * Reduced lvl from 31 to 25 (Reduced the required monster level for this item to drop from 31 to 25)
+ * Increased min4 and max4 from 80/100 to 100/120 (Enhanced Damage bonus increased from 80-100 to 100-120)
+ * Added swing2 to prop7, and 30/30 to min7 and max7 (Added 30% Increased Attack Speed bonus)
+* Blacktongue
+ * Reduced lvl from 35 to 28 (Reduced the required monster level for this item to drop from 35 to 28)
+ * Reduced par1 from 150 to 25 (Poison duration reduced from 6 to 1 seconds)
+ * Increased min1 and max1 from 192/192 to 614/614 (Poison damage changed to 60 damage)
+ * Increased min5 and max5 from 50/60 to 150/160 (Enhanced Damage bonus increased from 50-60 to 150-160)
+ * Changed prop6 from *hp to hp (Enabled -10 health debuff)
+* Ripsaw
+ * Reduced lvl from 35 to 27 (Reduced the required monster level for this item to drop from 35 to 27)
+ * Increased min4 and max4 from 80/100 to 100/200 (Enhanced Damage bonus increased from 80-100 to 100-200)
+* The Patriarch
+ * Reduced lvl from 39 to 33 (Reduced the required monster level for this item to drop from 39 to 33)
+ * Increased min1 and max1 from 3/3 to 9/9 (Damage Reduced increased from 3 to 9)
+ * Increased min2 and max2 from 3/3 to 9/9 (Magic Damage Reduced increased from 3 to 9)
+ * Increased min5 and max5 from 100/120 to 200/300 (Enhanced Damage bonus increased from 100-120 to 200-300)
+ * Increased min6 and max6 from 10/10 to 20/20 (Strength bonus increased from 10 to 20)
+* The Diggler
+ * Reduced lvl from 15 to 9 (Reduced the required monster level for this item to drop from 15 to 9)
+ * Reduced lvl req from 11 to 6 (Required level to equip reduced from 11 to 6)
+ * Increased min2 and max2 from 50/50 to 150/150 (Enhanced Damage bonus increased from 50 to 150)
+* The Jade Tan Do
+ * Reduced lvl from 26 to 17 (Reduced the required monster level for this item to drop from 26 to 17)
+ * Reduced lvl req from 19 to 14 (Required level to equip reduced from 19 to 14)
+ * Increased min1 and max1 from 100/150 to 200/250 (Attack Rating bonus increased from 100-150 to 200-250)
+ * Increased min3 and max3 from 460 to 921 (Poison damage increased from 180 to 360)
+ * Added move2 to prop6 and 40/40 to min6 and max6 (Added 40% Faster Run/Walk bonus)
+* Irices Shard (Spectral Shard)
+ * Reduced lvl from 34 to 23 (Reduced the required monster level for this item to drop from 34 to 23)
+ * Reduced lvl req from 25 to 21 (Required level to equip reduced from 25 to 21)
+ * Added fire-min and fire-max to prop5 and prop6. Added 20/20 to min5 and max5, and 40/40 to min6 and max6 (Added 20-40 fire damage)
+ * Added dmg-cold to prop7, 75 to par7, and 15/25 to min7 and max7 (Added 15-25 cold damage with 3 second chill duration)
+ * Added ltng-min to par8, ltng-max to par9, 1/1 to min8 and max8, and 60/60 to min9 and max9 (Added 1-60 lightning damage)
+* The Dragon Chang
+ * Reduced lvl from 11 to 5 (Reduced the required monster level for this item to drop from 11 to 5)
+ * Reduced lvl req from 8 to 5 (Required level to equip reduced from 8 to 5)
+ * Changed prop5 from dmg-fire to dmg-fire/lvl, added 16 to par5, removed 3/6 from min5/max5 (Changed fire damage from 3-6 to +2 to max fire damage per level)
+* Razortine
+ * Reduced lvl from 16 to 11 (Reduced the required monster level for this item to drop from 16 to 11)
+ * Increased min6 and max6 from 30/50 to 80/150 (Enhanced Damage bonus increased from 30-50 to 80-150)
+* Bloodthief
+ * Reduced lvl from 23 to 19 (Reduced the required monster level for this item to drop from 23 to 19)
+ * Increased min6 and max6 from 50/70 to 120/180 (Enhanced Damage range increased from 50-70 to 120-180)
+* Lance of Yaggai
+ * Reduced lvl from 30 to 24 (Reduced the required monster level for this item to drop from 30 to 24)
+ * Increased min1 and max1 from 8/8 to 9/17 (Attack Takes Damage increased from 8 to 9-17)
+ * Increased min3 and max3 from 60/60 to 360/360 (Increased lightning damage from 1-60 to 1-360)
+* The Tannr Gorerod
+ * Reduced lvl from 36 to 29 (Reduced the required monster level for this item to drop from 36 to 29)
+ * Increased min8 and max8 from 80/100 to 110/190 (Enhanced damage bonus increased from 80-100 to 110-190)
+* Dimoaks Hew (Dimoak’s Hew)
+ * Reduced lvl from 11 to 5 (Reduced the required monster level for this item to drop from 11 to 5)
+ * Reduced lvl req from 8 to 5 (Required level to equip reduced from 8 to 5)
+ * Changed prop1 from dex to str (Dexterity bonus changed to Strength)
+ * Decreased min4 and max4 from -8 to -18 (Defense debuff increased from -8 defense to -18)
+* Steelgoad
+ * Reduced lvl from 19 to 13 (Reduced the required monster level for this item to drop from 19 to 13)
+ * Increased min4 and max4 from 5/5 to 6/6 (Increased Resist All bonus from 5 to 6)
+ * Increased min5 and max5 from 60/80 to 160/180 (Enhanced Damage bonus increased from 60-80 to 160-180)
+* Soul Harvest
+ * Reduced lvl from 26 to 17 (Reduced the required monster level for this item to drop from 26 to 17)
+ * Increased min4 and max4 from 50/90 to 90/150 (Enhanced Damage bonus increased from 50-90 to 90-150)
+ * Changed prop5 from manasteal to mana-kill (Replaced 10% mana steal with 10 mana per kill)
+ * Changed prop6 from enr to heal-kill, and increased min6 and max6 from 5/5 to 10/10 (Replaced Energy bonus with 10 life per kill)
+* The Battlebranch
+ * Reduced lvl from 34 to 25 (Reduced the required monster level for this item to drop from 34 to 25)
+ * Increased lvl req from 25 to 29 (Required level to equip increased from 25 to 29)
+ * Changed prop2 from dex to ac, and min2 and max2 from 10/10 to 100/100 (Changed Dexterity bonus to +100 armor)
+ * Increased min3 and max3 from 50/70 to 220/270 (Enhanced Damage bonus increased from 50-70 to 220-270)
+ * Reduced min4 and max4 from 50/100 to -100/-100 (Attack Rating bonus decreased from 50-100 to -100)
+* Woestave
+ * Reduced lvl from 38 to 30 (Reduced the required monster level for this item to drop from 38 to 30)
+ * Increased min5 and max5 from 1/1 to 3/3 (Increased Freeze chance calculation from 1 to 3)
+ * Increased min8 and max8 from 20/40 to 120/140 (Enhanced Damage bonus increased from 20-40 to 120-140)
+* The Grim Reaper
+ * Reduced lvl from 39 to 31 (Reduced the required monster level for this item to drop from 39 to 31)
+ * Increased min4 and max4 from 20/20 to 100/100 (Enhanced Damage bonus increased from 20 to 100)
+ * Changed prop6 from *hp to hp (Enabled -20 health debuff)
+* Bane Ash
+ * Reduced lvl from 7 to 3 (Reduced the required monster level for this item to drop from 7 to 3)
+ * Increased min1 and max1 from 4/4 to 8/8, and min2 and max2 from 6/6 to 12/12 (Fire Damage bonus increased from 4-6 to 8-12)
+ * Increased min7 and max7 from 5/5 to 6/6 (Fire Bolt bonus increased from 5 to 6)
+ * Increased min8 and max8 from 2/2 to 3/3 (Warmth bonus increased from 2 to 3)
+* Serpent Lord
+ * Reduced lvl from 12 to 8 (Reduced the required monster level for this item to drop from 12 to 8)
+ * Increased min1 and max1 from 40/40 to 122/122 (Poison damage increased from 12 to 36)
+ * Increased min5 and max5 from 30/40 to 100/100 (Enhanced Damage bonus increased from 30-40 to 100)
+* Lazarus Spire (Spire of Lazarus)
+ * Reduced lvl from 24 to 20 (Reduced the required monster level for this item to drop from 24 to 20)
+ * Increased min2 and max2 from 5/5 to 9/9 (Damage Reduced By increased from 5 to 9)
+ * Changed prop9 from sor to allskills (+1 Sorceress Skills changed to +1 All Skills)
+* The Salamander
+ * Reduced lvl from 28 to 23 (Reduced the required monster level for this item to drop from 28 to 23)
+ * Changed min3 and max3, min4 and max4, min5 and max5, to 1/3 (Warmth, Fire Bolt, and Fireball skill bonuses changed to vary from +1 to +3)
+ * Increased min6 and max6 from 2/2 to 3/3 (Increased Fire Skills buff from +2 to +3)
+* The Iron Jang Bong
+ * Reduced lvl from 38 to 30 (Reduced the required monster level for this item to drop from 38 to 30)
+ * Increased min1 and max1 from 30/30 to 50/130 (Increased Defense bonus from 30 to 50-130)
+ * Increased min3 and max3 from 100/100 to 150/150 (Enhanced Damage bonus increased from 100 to 150)
+ * Changed par5 from 48 to 52, and increased min5 and max5 from 2/2 to 4/4 (Changed +2 Nova to +4 Enchant)
+ * Deleted all stats from prop6 to max7 and moved all other stats over (Removed +2 Blaze and +3 Frost Nova)
+ * Added swing2 to prop7 and 50/50 to min7 and max7 (Added 50% Increased Attack Speed)
+* Pluckeye
+ * Reduced lvl from 10 to 3 (Reduced the required monster level for this item to drop from 10 to 3)
+ * Reduced lvl req from 7 to 4 (Reduced level to equip from 7 to 4)
+ * Increased min2 and max2 from 100/100 to 300/300 (Enhanced Damage bonus increased from 100 to 300)
+* Witherstring
+ * Reduced lvl from 18 to 6 (Reduced the required monster level for this item to drop from 18 to 6)
+ * Reduced lvl req from 13 to 8 (Required level to equip reduced from 13 to 8)
+ * Increased min2 and max2 from 1/1 to 6/6, and min3 and max3 from 3/3 to 9/9 (Increased bonus damage from 1-3 to 6-9)
+ * Increased max6 from 50 to 60 (Enhanced Damage range increased from 40-50 to 40-60)
+* Rimeraven (Raven Claw)
+ * Reduced lvl from 20 to 10 (Reduced the required monster level for this item to drop from 20 to 10)
+* Piercerib (Rogue’s Bow)
+ * Reduced lvl from 27 to 15 (Reduced the required monster level for this item to drop from 27 to 15)
+ * Reduced lvl req from 20 to 16 (Required level to equip reduced from 20 to 16)
+ * Increased min2 and max2 from 30/30 to 60/60 (Increased Deadly Strike chance from 30 to 60)
+ * Increased min5 and max5 from 40/60 to 70/110 (Enhanced Damage bonus increased from 40-60 to 70-110)
+* Pullspite (Stormstrike)
+ * Reduced lvl from 34 to 20 (Reduced the required monster level for this item to drop from 34 to 20)
+ * Increased max1 from 30 to 90 (Increased max Lightning Damage from 30 to 90)
+ * Changed prop2 from str to dex and increased min2 and max2 from 8/8 to 8/15 (Change Strength bonus to Dexterity and increased bonus range from 8 to 8-15)
+ * Increased min6 and max6 from 70/90 to 109/109 (Enhanced Damage bonus increased from 70-90 to 109)
+* Wizendraw
+ * Decreased lvl from 35 to 25 (Reduced the required monster level for this item to drop from 35 to 25)
+ * Changed prop2 from mana to cast2, and decreased min2 and max2 from 30/30 to 20/20 (Removed Mana bonus and added 20% Faster Cast Rate)
+ * Increased min6 and max6 from 70/80 to 170/210 (Enhanced Damage bonus increased from 70-80 to 170-210)
+* Hellclap
+ * Reduced lvl from 36 to 30 (Reduced the required monster level for this item to drop from 36 to 30)
+ * Increased min2 and max2 from 15/15 to 55/55, and min3 and max3 from 30/50 to 80/95 (Increased Fire Damage bonus from 15 to 30-50, to 55 to 80-95)
+ * Increased min8 and max8 from 1/1 to 3/3 (Fire Skills bonus increased from 1 to 3)
+* Blastbark
+ * Reduced lvl from 38 to 33 (Reduced the required monster level for this item to drop from 38 to 33)
+ * Increased min1 and max1 from 70/130 to 170/230 (Enhanced Damage bonus increased from 70-130 to 170-230)
+ * Increased min2 and max2 from 5/5 to 16/16 (Strength bonus increased from 5 to 16)
+ * Increased min3 and max3 from 1/1 to 2/2 (Amazon Skills bonus increased from 1 to 2)
+* Leadcrow
+ * Reduced lvl from 12 to 8 (Reduced the required monster level for this item to drop from 12 to 8)
+ * Increased min3 and max3 from 70/70 to 130/130 (Enhanced Damage bonus increased from 70/70 to 130/130
+* Ichorsting
+ * Reduced lvl from 24 to 17 (Reduced the required monster level for this item to drop from 24 to 17)
+ * Increased min1 and max1 from 102/102 to 412/412 (Poison Damage increased from 30 to 121)
+ * Increased min5 and max5 from 50/50 to 75/75 (Enhanced Damage bonus increased from 50 to 75)
+* Hellcast
+ * Reduced lvl from 36 to 26 (Reduced the required monster level for this item to drop from 36 to 26)
+ * Increased min6 and max6 from 70/80 to 120/175 (Enhanced Damage bonus increased from 70-80 to 120-175)
+ * Increased min7 and max7 from 15/35 to 66/122 (Fire Damage bonus increased from 15-35 to 66-122)
+* Doomspittle (Doomslinger)
+ * Reduced lvl from 38 to 35 (Reduced the required monster level for this item to drop from 38 to 35)
+ * Increased min2 and max2 from 35/35 to 60/60 (Pierce chance increased from 35 to 60)
+ * Increased min5 and max5 from 60/100 to 200/260 (Enhanced Damage bonus increased from 60-100 to 200-260)
+* Coif of Glory
+ * Reduced lvl from 19 to 15 (Reduced the required monster level for this item to drop from 19 to 15)
+ * Increased min1 and max1 from 7/7 to 14/14 (Attacker Takes Lightning Damage increased from 7 to 14)
+ * Increased min3 and max3 from 15/15 to 25/25 (Lightning Resist increased from 15 to 25)
+* Duskdeep
+ * Reduced lvl from 23 to 17 (Reduced the required monster level for this item to drop from 23 to 17)
+ * Wormskull
+ * Reduced lvl from 28 to 24 (Reduced the required monster level for this item to drop from 28 to 24)
+ * Reduced par5 from 200 to 100, and increased min5 and max5 from 102/102 to 204/204 (Halved duration of poison damage while keeping the total damage the same)
+* Howltusk
+ * Reduced lvl from 34 to 26 (Reduced the required monster level for this item to drop from 34 to 26)
+ * Increased min1 and max1 from 2/2 to 7/7 (Magic Damage Reduced By increased from 2 to 7)
+ * Increased min2 and max2 from 3/3 to 23/23 (Attacker Takes Damage increased from 3 to 23)
+* Undead Crown
+ * Reduced lvl from 39 to 31 (Reduced the required monster level for this item to drop from 39 to 31)
+ * Increased min6 and max6 from 50/50 to 250/250 (Damage vs Undead increased from 50 to 250)
+ * Increased min7 and max7 from 50/100 to 200/250 (Attack Rating vs Undead increased from 50-100 to 200-250)
+* The Face of Horror
+ * Reduced lvl from 27 to 21
+ * Changed prop4 from dmg-undead to dmg-demon and increased min4 and max4 from 50/50 to 150/200
+* Greyform
+ * Reduced lvl from 10 to 3 (Reduced the required monster level for this item to drop from 10 to 3)
+ * Reduced lvl req from 7 to 4 (Required level to equip reduced from 7 to 4)
+ * Added red-dmg to prop7 and 3/3 to min7 and max7 (Added Damage Reduced By 3)
+* Blinkbats Form (Blinkbat’s Form)
+ * Reduced lvl from 16 to 5 (Reduced the required monster level for this item to drop from 16 to 5)
+ * Reduced lvl req from 12 to 8 (Required level to equip reduced from 12 to 8)
+ * Increased min2 and max2 from 10/10 to 25/25 (Faster Run/Walk bonus increased from 10 to 25)
+ * Changed prop3 from ac to ac% and increased min3 and max3 from 25/25 to 125/125 (Changed +25 Defense to 125% Enhanced Defense)
+ * Increased min4 and max4 from 3/3 to 5/5, increased min5 and max5 from 6/6 to 9/9 (Fire damage bonus increased from 3-6 to 5-9)
+* The Centurion
+ * Reduced lvl from 19 to 7 (Reduced the required monster level for this item to drop from 19 to 7)
+ * Reduced lvl req from 14 to 8 (Required level to equip reduced from 14 to 8)
+ * Changed prop1 from ac to ac% and increased min1 and max1 from 30/30 to 175/200 (Replaced +30 Defense with 175-200% Enhanced Defense)
+ * Increased min3 and max3 from 2/2 to 6/6 (Damage Reduced By increased from 2 to 6)
+ * Increased min7 and max7 from 5/5 to 10/10 (Replenish Life increased from 5 to 10)
+* Twitchthroe
+ * Reduced lvl from 22 to 11 (Reduced the required monster level for this item to drop from 22 to 11)
+ * Reduced lvl req from 16 to 10 (Level required to equip reduced from 16 to 10)
+ * Increased min1 and max1 from 20/20 to 25/25 (Increased Attack Speed bonus increased from 20 to 25)
+ * Increased min6 and max6 from 20/20 to 25/25 (Faster Hit Recovery bonus increased from 20 to 25)
+* Darkglow
+ * Reduced lvl from 19 to 13 (Reduced the required monster level for this item to drop from 19 to 13)
+ * Increased min5 and max5 from 10/10 to 25/25 (Resist All bonus increased from 10 to 25)
+* Hawkmail
+ * Reduced lvl from 20 to 15 (Reduced the required monster level for this item to drop from 20 to 15)
+ * Increased min1 and max1 from 80/100 to 100/120 (Enhanced Defense bonus increased from 80-100 to 100-120)
+ * Increased min2 and max2 from 15/15 to 20/20 (Maximum Cold Resist bonus increased from 15 to 20)
+ * Increased min3 and max3 from 15/15 to 75/75 (Cold Resist bonus increased from 15 to 75)
+* Sparkling Mail
+ * Reduced lvl from 23 to 15 (Reduced the required monster level for this item to drop from 23 to 15)
+ * Increased min1 and max1 from 75/85 to 125/145 (Enhanced Defense bonus increased from 75-85 to 125-145)
+ * Increased max2 from 20 to 46 (Lightning Damage bonus increased from 1-20 to 1-46)
+ * Increased min3 and max3 from 10/14 to 20/28 (Attacker Takes Lightning Damage increased from 10-14 to 20-28)
+ * Increased min4 and max4 from 30/30 to 45/45 (Lightning Resist increased from 30 to 45)
+* Venomsward (Venom Ward)
+ * Reduced lvl from 27 to 22 (Reduced the required monster level for this item to drop from 27 to 22)
+* Iceblink
+ * Reduced lvl from 30 to 24 (Reduced the required monster level for this item to drop from 30 to 24)
+ * Increased min1 and max1 from 1/1 to 3/3 (Increased freeze chance calculation from 1 to 3)
+ * Increased min4 and max4 from 1/1 to 4/6 (Magic Damage Reduced increased from 1 to 4-6)
+* Boneflesh
+ * Reduced lvl from 35 to 25 (Reduced the required monster level for this item to drop from 35 to 25)
+ * Increased max1 from 5 to 8 (Increased life steal from 5 to 5-8)
+ * Increased min2 and max2 from 100/120 to 150/170 (Enhanced Defense bonus increased from 100-120 to 150-170)
+ * Increased min3 and max3 from 35/35 to 75/85 (Attack Rating bonus increased from 35 to 75-85)
+* Rockflesh (Rockfleece)
+ * Reduced lvl from 38 to 30 (Reduced the required monster level for this item to drop from 38 to 30)
+ * Increased min2 and max2 from 100/130 to 130/200 (Enhanced Defense bonus increased from 100-130 to 130-200)
+ * Increased min4 and max4 from 5/5 to 11/11 (Damage Reduced By increased from 5 to 11)
+* Rattlecage
+ * Reduced lvl from 39 to 34 (Reduced the required monster level for this item to drop from 39 to 34)
+ * Changed prop1 from howl to dmg%, and increased min1 and max1 from 52/52 to 75/100 (Replaced Hit Causes Monster to Flee with 75-100% Enhanced Damage)
+* Goldskin
+ * Increased min3 and max3 from 10/10 to 36/36 (Attacker Takes Damage increased from 10 to 36)
+ * Added mag% to prop7, and added 50/50 to min7 and max7 (Added 50% Magic Find)
+* Heavenly Garb
+ * Increased min2 and max2 from 10/10 to 23/23 (Resist All bonus increased from 10 to 23)
+ * Increased min3 and max3 from 25/25 to 60/60 (Regenerate Mana bonus increased from 25 to 60)
+ * Deleted all data from prop5 through max6 (Removed bonuses vs undead)
+ * Added cast2 to prop5, and 20/20 to min5 and max5 (Added 20% Faster Cast Rate)
+* Umbral Disk
+ * Reduced lvl from 12 to 6 (Reduced the required monster level for this item to drop from 12 to 6)
+ * Reduced lvl req from 9 to 5 (Required level to equip reduced from 9 to 5)
+ * Increased min4 and max4 from 20/20 to 25/25 (Life bonus increased from 20 to 25)
+* Stormguild
+ * Reduced lvl from 18 to 13 (Reduced the required monster level for this item to drop from 18 to 13)
+ * Increased min1 and max1 from 1/1 to 4/4 (Magic Damage Reduced By increased from 1 to 4)
+ * Increased max4 from 6 to 26 (Lightning Damage bonus increased from 1-6 to 1-26)
+ * Increased min7 and max7 from 3 to 18 (Attacker Takes Lightning Damage increased from 3 to 18)
+* Wall of the Eyeless
+ * Reduced lvl from 27 to 21 (Reduced the required monster level for this item to drop from 27 to 21)
+ * Increased min3 and max3 from 20/20 to 25/35 (Faster Cast Rate increased from 20 to 25-35)
+* Swordback Hold
+ * Reduced lvl from 20 to 16 (Reduced the required monster level for this item to drop from 20 to 16)
+ * Increased lvl req from 15 to 35 (Required level to equip increased from 15 to 35)
+ * Increased min1 and max1 from 5/5 to 57/57. Deleted all stats from prop6 to max6 and moved other stats over. (Attacker Takes Damage increased from 10 to 57. Removed second instead of Attack Takes Damage)
+ * Added dmg-min to prop7, added 21/21 to min7 and max7. Added dmg-max to prop8, added 36/36 to min8 and max8 (Added 21-36 damage)
+* Steelclash
+ * Reduced lvl from 23 to 18 (Reduced the required monster level for this item to drop from 23 to 18)
+ * Increased min3 and max3 from 3/3 to 4/7 (Damage Reduced By bonus increased from 3 to 4-7)
+ * Increased min7 and max7 from 15/15 to 35/35 (Resist All increased from 15 to 35)
+* Bverrit Keep
+ * Increased min1 and max1 from 30/30 to 50/60 (Increased Defense bonus from 30 to 50-60)
+ * Increased min3 and max3 from 5/5 to 15/15 (Increased Strength bonus from 5 to 15)
+ * Increased min4 and max4 from 5/5 to 9/9 (Magic Damage Reduced By increased from 5 to 9)
+ * Increased min6 and max6 from 10/10 to 20/20 (Block Chance bonus increased from 10 to 20)
+* The Ward
+ * Reduced lvl from 35 to 30 (Reduced the required monster level for this item to drop from 35 to 30)
+ * Increased min2 and max2 from 2/2 to 12/12 (Magic Damage Reduced By increased from 2 to 12)
+ * Increased min7 and max7 from 2 to 12 (Physical Damage reduction increased from 0 to 10, +2% from being a medium heavy shield from the base DMMod)
+* The Hand of Broc
+ * Reduced lvl from 7 to 3 (Reduced the required monster level for this item to drop from 7 to 3)
+ * Reduced lvl req from 5 to 4 (Required level to equip reduced from 5 to 4)
+ * Increased max1 from 3 to 5 (Increased mana steal range from 3 to 3-5)
+ * Increased max2 from 3 to 5 (Increased life steal range from 3 to 3-5)
+ * Increased min6 and max6 from 10/20 to 30/50 (Enhanced Defense bonus increased from 10-20 to 30-50)
+* Chance Guards
+ * Reduced lvl from 20 to 16 (Reduced the required monster level for this item to drop from 20 to 16)
+ * Increased min6 and max6 from 20/30 to 40/60 (Enhanced Defense bonus increased from 20-30 to 40-60)
+* Magefist
+ * Reduced lvl from 31 to 22 (Reduced the required monster level for this item to drop from 31 to 22)
+* Frostburn
+ * Reduced lvl from 39 to 30 (Reduced the required monster level for this item to drop from 39 to 30)
+ * Increased par4 from 50 to 100 (Increased cold damage duration from 2 to 4 seconds)
+ * Increased min4 and max4 from 1/6 to 13/26 (Increased cold damage from 1-6 to 13-26)
+ * Increased min5 and max5 from 10/20 to 50/70 (Enhanced Defense bonus increased from 10-20 to 50-70)
+* Hotspur
+ * Reduced lvl from 7 to 3 (Reduced the required monster level for this item to drop from 7 to 3)
+ * Reduced lvl req from 5 to 4 (Required level to equip reduced from 5 to 4)
+ * Increased min6 and max6 from 10/20 to 20/30 (Enhanced Defense bonus increased from 10-20 to 20-30)
+* Gorefoot
+ * Reduced lvl from 12 to 8 (Reduced the required monster level for this item to drop from 12 to 8)
+ * Increased min3 and max3 from 2/2 to 4/4 (Mana steal increased from 2 to 4)
+ * Increased min4 and max4 from 2/2 to 6/6 (Attacker Takes Damage increased from 2 to 6)
+ * Increased min6 and max6 from 20/30 to 50/80 (Enhanced Defense bonus increased from 20-30 to 50-80)
+ * Increased min7 and max7 from 2/2 to 3/3 (Leap skill bonus increased from 2 to 3)
+* Treads of Cthon
+ * Reduced lvl from 20 to 14 (Reduced the required monster level for this item to drop from 20 to 14)
+ * Increased min1 and max1 from 30/30 to 50/50 (Faster Run/Walk bonus increased from 30 to 50)
+* Goblin Toe
+ * Reduced lvl from 30 to 23 (Reduced the required monster level for this item to drop from 30 to 23)
+ * Increased min2 and max2 from 1/1 to 3/3 (Damage Reduced By increased from 1 to 3)
+ * Increased min3 and max3 from 1/1 to 3/3 (Magic Damage Reduced By increased from 1 to 3)
+* Tearhaunch
+ * Reduced lvl from 39 to 30 (Reduced the required monster level for this item to drop from 39 to 30)
+ * Increased min2 and max2 from 5/5 to 10/10 (Strength bonus increased from 5 to 10)
+ * Increased min3 and max3 from 5/5 to 10/10 (Dexterity bonus increased from 5 to 10)
+ * Increased min5 and max5 from 10/10 to 15/20 (Resist All bonus increased from 10 to 15-20)
+* Lenyms Cord (Lenymo)
+ * Reduced lvl from 10 to 3 (Reduced the required monster level for this item to drop from 10 to 3)
+ * Reduced lvl req from 7 to 4 (Required level to equip reduced from 7 to 4)
+ * Increased min2 and max2 from 30/30 to 45/45 (Mana Regeneration bonus increased from 30 to 45)
+ * Increased min3 and max3 from 5/5 to 10/10 (Resist All bonus increased from 5 to 10)
+* Snakecord
+ * Decreased lvl from 16 to 11 (Reduced the required monster level for this item to drop from 16 to 11)
+ * Increased min1 and max1 from 40/40 to 112/112 (Increased poison damage from 12 to 33)
+ * Increased min5 and max5 from 5/5 to 8/8 (Replenish Life increased from 5 to 8)
+* Nightsmoke
+ * Reduced lvl from 27 to 14 (Reduced the required monster level for this item to drop from 27 to 14)
+ * Reduced lvl req from 20 to 18 (Required level to equip reduced from 20 to 18)
+ * Increased min1 and max1 from 10 to 15 (Resist All increased from 10 to 15)
+ * Increased min4 and max4 from 2 to 3 (Damage Reduced By increased from 2 to 3)
+* Goldwrap
+ * Reduced lvl from 36 to 24 (Reduced the required monster level for this item to drop from 36 to 24)
+* Bladebuckle
+ * Reduced lvl from 39 to 30 (Reduced the required monster level for this item to drop from 39 to 30)
+ * Increased min1 and max1 from 8 to 16 (Attacker Takes Damage increased from 8 to 16)
+ * Increased max3 from 3 to 5 (Damage Reduced By range increased from 3 to 3-5)
+ * Changed prop4 from str to dmg%, and increased min4 and max4 from 5/5 to 30/50 (Replaced Strength bonus with 30-50% Enhanced Damage)
+* Grim’s Burning Dead
+ * Increased min6 and max6 from 3/3 to 5/5 (Necromancer skills bonus increased from 3 to 5)
+ * Deleted all data from prop10 to max10 and moved all other stats over (Removed +1 Fire Skills, from the base DMMod)
+
 
 **Patch 1.03b Changelog** (12-31-23)
   * quick patch mostly to properly fix a critical bug that I attempted to hotfix earlier this morning but failed (all runewords were poofing due to the new Akara Potion Upgrade not having anything in the "code" column)
