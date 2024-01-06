@@ -44,6 +44,62 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 * Increased the unique/champion mob density in most areas in Normal difficulty, to match the density in Nightmare difficulty. Exclusions include The Blood Moor, The Den of Evil, and the Forgotten Tower which maintain their original values. The Cold Plains has an increased elite density of 2-3 instead of 4-5 like in Nightmare.
 
+
+##### data\global\excel\weapons.txt
+
+* Military Pick
+ * Increased mindam and maxdam from 7/11 to 9/14 (Increased damage from 7-11 to 9-14)
+* Scepter
+ * Decreased mindam and maxdam from 6/11 to 3/7 (Decreased Scepter damage from 6-11 to 3-7)
+* Two-Handed Sword
+ * Increased mindam and maxdam from 2/9 to 3/11 (Increased 1h damage from 2-9 to 3-11
+ * Increased 2handmindam and 2handmaxdam from 8/17 to 10/21 (Increased 2h damage from 8-17 to 10-21)
+* Claymore
+ * Increased mindam and maxdam from 5/12 to 7/18 (increased 1h damage from 5-12 to 7-18)
+ * Increased 2handmindam and 2handmaxdam from 13/30 to 15/34 (Increased 2h damage from 13-30 to 15-34
+* Giant Sword
+ * Increased mindam and maxdam 3/16 to 6/20 (Increased 1h damage from 3-16 to 6-20)
+ * Increased 2handmindam and 2handmaxdam from 9/28 to 14/33 (Increased 2h damage from 9-28 to 14-33)
+* Bastard Sword
+ * Increased mindam and maxdam from 7/19 to 12/22 (Increased 1h damage from 7-19 to 12-22)
+ * Increased 2handmindam and 2handmaxdam from 20/28 to 22/34 (Increased 2h damage from 20-28 to 22-34)
+* Flamberge
+ * Increased mindam and maxdam from 9/15 to 15/19 (Increased 1h damage from 9-15 to 15-19)
+ * Increased 2handmindam and 2handmaxdam from 13/26 to 20/39 (Increased 2h damage from 13-26 to 20-39)
+* Dagger
+ * Increased maxdam from 4 to 5 (Increased damage range from 1-4 to 1-5)
+* Dirk
+ * Increased mindam and maxdam from 3/9 to 4/10 (Increased damage range from 3-9 to 4-10)
+* Kris
+ * Increased mindam and maxdam from 2/11 to 3/12 (Increased damage range from 2-11 to 3-13)
+* Blade
+ * Increased mindam and maxdam from 4/15 to 5/17 (Increased damage range from 4-15 to 5-17)
+* Javelin
+ * Decreased minmisdam and maxmisdam from 6/14 to 5/12 (Decreased Javelin throw damage from 6-14 to 5-12)
+* Spear
+ * Increased 2handmindam and 2handmaxdam from from 3/15 to 6/19 (Increased damage from 3-15 to 6-19)
+* Trident
+ * Increased 2handmaxdam from 15 to 24 (Increased damage from 9-15 to 9-24)
+* Brandistock
+ * Increased 2handmindam and 2handmaxdam from 7/17 to 16/23 (Increased damage from 7-17 to 16-23)
+* Spetum
+ * Increased 2handmindam and 2handmaxdam from 15/23 to 18/30 (Increased damage from 15-23 to 18-30)
+* Short Bow
+ * Increased 2handmaxdam from 4 to 5 (Increased damage from 1-4 to 1-5)
+* Hunter’s Bow
+ * Increased 2handmaxdam from 6 to 7 (Increased damage from 2-6 to 2-7)
+* Composite Bow
+ * Increased 2handmindam from 4 to 5 (Increased damage from 4-8 to 5-8)
+* Light Crossbow
+ * Increased 2handmindam and 2handmaxdam from 6/9 to 7/11 (Increased damage from 6-9 to 7-11)
+* Crossbow
+ * Increased 2handmindam and 2handmaxdam from 9/16 to 12/20 (Increased damage from 9-16 to 12-20)
+* Heavy Crossbow
+ * Increased 2handmindam and 2handmaxdam from 14/26 to 18/30 (Increased damage from 14-26 to 18-30)
+* Repeating Crossbow
+ * Increased 2handmindam and 2handmaxdam from 6/12 to 8/14 (Increased damage from 6-12 to 8-14)
+
+
 ##### data\global\excel\uniqueitems.txt
 
 * The Gnasher
