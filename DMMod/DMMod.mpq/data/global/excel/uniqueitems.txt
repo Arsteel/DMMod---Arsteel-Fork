@@ -28,7 +28,7 @@ Rixots Keen	25	0	1			1		3	2	ssd	Short Sword		5	5000	blac	blac						dmg-min		5	5	
 Blood Crescent	26	0	1			1		9	7	scm	Scimitar		5	5000	lblu			invscmu				res-all		15	15	dmg%		80	150	hp		15	15	light		4	4	openwounds		33	33	swing2		15	15	lifesteal		15	15																						0
 Krintizs Skewer	27	0	1			1		10	10	sbr	Saber		5	5000	cblu			inv9sbu				ignore-ac		1	1	str		10	10	dex		10	10	manasteal		7	7	dmg%		150	150	dmg-norm		3	7																										0
 Gleamscythe	28	0	1			1		15	13	flc	Falchion		5	5000	lred			invflcu				light		3	3	mana		30	30	ac		20	20	swing2		60	60	dmg%		60	100	dmg-cold	50	3	5	sock	1																								0
-Azurewrath	29	0	1			1		14	13	crs	Crystal Sword		5	5000	lgry			invcrsu				dmg-undead		200	200	mag%		20	20	dmg-cold	100	6	14	dmg%		100	150	dur		25	25	dmg-mag		15	25	dmg-demon		200	200																						0
+Dark Master	29	0	1			1		14	13	crs	Crystal Sword		5	5000	lgry			invcrsu				dmg-undead		200	200	mag%		20	20	dmg-cold	100	6	14	dmg%		100	150	dur		25	25	dmg-mag		15	25	dmg-demon		200	200																						0
 Griswolds Edge	30	0	1			1		19	17	bsd	Broad Sword		5	5000	cred			invbsdu				fire-min		10	12	fire-max		15	25	att		100	100	swing1		20	20	knock		1	1	dmg%		80	120	str		12	12	deadly		50	50																		0
 Hellplague	31	0	1			1		24	22	lsd	Long Sword		5	5000	dred			invlsdu				manasteal		5	5	lifesteal		5	5	pois-min		96	96	pois-max		144	144	pois-len		150	150	dmg%		70	80	dmg-fire		25	75	fireskill		3	3																		0
 Culwens Point	32	0	1			1		31	29	wsd	War Sword		5	5000	whit	whit						allskills		1	1	res-pois-len		50	50	balance2		20	20	swing2		20	20	att%		20	20	dmg%		108	108	deadly		20	20																						0
