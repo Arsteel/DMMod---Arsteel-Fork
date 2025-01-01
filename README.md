@@ -110,7 +110,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 * Dirk
  * Increased mindam and maxdam from 3/9 to 4/10 (Increased damage range from 3-9 to 4-10)
 * Kris
- * Increased mindam and maxdam from 2/11 to 3/12 (Increased damage range from 2-11 to 3-13)
+ * Increased mindam and maxdam from 2/11 to 3/13 (Increased damage range from 2-11 to 3-13)
 * Blade
  * Increased mindam and maxdam from 4/15 to 5/17 (Increased damage range from 4-15 to 5-17)
 * Javelin
