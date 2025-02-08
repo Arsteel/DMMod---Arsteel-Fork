@@ -38,6 +38,10 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis. The original DMMod changes will be listed below the Arsteel Patch notes.
 
+**Arsteel Patch 0.01c Changelog**
+
+Added missing json files to data/local/lng/strings
+
 **Arsteel Patch 0.01b Changelog**
 
 Replaced the main directory folder with the correct version for the patch notes. Oops. 
