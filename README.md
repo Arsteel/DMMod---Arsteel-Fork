@@ -36,7 +36,8 @@ Thanks to:
 * id Software for creating the awesome Doom games and the badass logo that I re-used for DMMod.
 
 # Changelog
-Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis. The original DMMod changes will be listed below the Arsteel Patch notes.
+
+See DMMod's changelog for those changes. This will only list changes made by Arsteel.
 
 **Arsteel Patch 0.02 Changelog**
 
