@@ -39,6 +39,10 @@ Thanks to:
 
 See DMMod's changelog for those changes. This will only list changes made by Arsteel.
 
+**Arsteel Patch 0.03 Changelog**
+
+https://docs.google.com/document/d/1yyHu9l2f-mYBThKDynIl6eygLm0oFDuT2gAnQ38nGWU/edit?tab=t.0
+
 **Arsteel Patch 0.02 Changelog**
 
 https://docs.google.com/document/d/1aS1XIRuz68l4xgt-agBf_TQC6kYNilECrpxRbQOA8tA/edit?tab=t.0
