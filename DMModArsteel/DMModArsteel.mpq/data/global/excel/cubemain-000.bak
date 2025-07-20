@@ -158,10 +158,10 @@ Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1				0	28				
 1 Zod Rune + 1 Shadow Killer + 1 Rare Armor -> Ethereal Rare Armor	1				100					3	"armo,rar,noe"	r33	"7cs,uni"					useitem				ethereal			1	1																																																																															0
 1 Zod Rune + 1 Shadow Killer + 1 Unique Weapon -> Ethereal Unique Weapon	1				100					3	"weap,uni,noe"	r33	"7cs,uni"					useitem				ethereal			1	1																																																																															0
 1 Zod Rune + 1 Shadow Killer + 1 Unique Armor -> Ethereal Unique Armor	1				100					3	"armo,uni,noe"	r33	"7cs,uni"					useitem				ethereal			1	1																																																																															0
-3 Perfect Amethysts -> Star Amethyst	1				100					3	"gpv,qty=3"							gtv																																																																																							0
-3 Perfect Rubies -> Star Ruby	1				100					3	"gpr,qty=3"							gtr																																																																																							0
-3 Perfect Sapphires -> Star Sapphire	1				100					3	"gpb,qty=3"							gtb																																																																																							0
-3 Perfect Topazes -> Star Topaz	1				100					3	"gpy,qty=3"							gty																																																																																							0
-3 Perfect Emeralds -> Star Emerald	1				100					3	"gpg,qty=3"							gtg																																																																																							0
+3 Perfect Amethysts -> Star Amethyst					100					3																																																																																															0
+3 Perfect Rubies -> Star Ruby					100					3																																																																																															0
+3 Perfect Sapphires -> Star Sapphire					100					3																																																																																															0
+3 Perfect Topazes -> Star Topaz					100					3																																																																																															0
+3 Perfect Emeralds -> Star Emerald					100					3																																																																																															0
 3 Perfect Diamonds -> Star Diamond	1				100					3	"gpw,qty=3"							gtw																																																																																							0
-3 Perfect Skulls -> Star Skull	1				100					3	"skz,qty=3"							skt																																																																																							0
+3 Perfect Skulls -> Star Skull					100					3	"skz,qty=3"							skt																																																																																							0
