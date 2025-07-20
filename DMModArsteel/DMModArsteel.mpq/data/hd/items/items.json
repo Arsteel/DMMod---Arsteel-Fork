@@ -658,5 +658,12 @@
   { "bet": { "asset": "quest/burning_essence_of_terror" } },
   { "fed": { "asset": "quest/festering_essence_of_destruction" } },
   { "std": { "asset": "body_part/flag" } },
-  { "bc1": { "asset": "..\\custom/charm_broad" } }
+  { "bc1": { "asset": "..\\custom/charm_broad" } },
+  { "gtv": { "asset": "..\\custom/perfect_amethyst_star" } },
+  { "gtb": { "asset": "..\\custom/perfect_saphire_star" } },
+  { "gtg": { "asset": "..\\custom/perfect_emerald_star" } },
+  { "gtr": { "asset": "..\\custom/perfect_ruby_star" } },
+  { "gtw": { "asset": "..\\custom/perfect_diamond_star" } },
+  { "gty": { "asset": "..\\custom/perfect_topaz_star" } },
+  { "skt": { "asset": "..\\custom/perfect_skull_star" } }
 ]

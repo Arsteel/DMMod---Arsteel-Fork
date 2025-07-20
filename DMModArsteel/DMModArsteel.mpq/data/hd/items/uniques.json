@@ -1923,5 +1923,10 @@
   "normal": "..\\custom/arpaskasgambit",
   "uber": "..\\custom/arpaskasgambit",
   "ultra": "..\\custom/arpaskasgambit"
+} },
+  { "dark_master": {
+  "normal": "..\\custom/dark_master",
+  "uber": "..\\custom/dark_master",
+  "ultra": "..\\custom/dark_master"
 } }
 ]
